@@ -1,17 +1,9 @@
-import ListGruop from "./components/ListGroup";
+import Alert from "./components/alert";
 
 function App() {
-  let items = ["New York", "San Fran", "Tokyo", "Gaza"];
-  const handleSelectItem = (item: string) => {
-    console.log(item);
-  };
   return (
     <div>
-      <ListGruop
-        items={items}
-        heading={"Cites"}
-        onSelectItem={handleSelectItem}
-      />
+      <Alert />
     </div>
   );
 }
