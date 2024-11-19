@@ -1,4 +1,5 @@
 import Alert from "./components/alert";
+import Button from "./components/button";
 
 function App() {
   return (
@@ -6,9 +7,12 @@ function App() {
       <Alert>
         Hello World
         <span>
-          !<p>MAhs</p>
+          !<p>Mah</p>
         </span>
       </Alert>
+      <Button color="danger" onClick={() => console.log("Clicked")}>
+        My Btn
+      </Button>
     </div>
   );
 }
